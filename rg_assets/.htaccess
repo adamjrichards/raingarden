@@ -1,0 +1,3 @@
+SetEnv "MY_PROJECT_ROOT" "C:\\Web\vhosts\\raingarden\\rg_site"
+SetEnv "MY_PROJECT_META" "rg_json"
+SetEnv "MY_PROJECT_INIT" "rg_json\\rg_init.json"

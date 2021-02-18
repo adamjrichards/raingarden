@@ -1,0 +1,81 @@
+<?php
+
+namespace raingarden\rg_content\rg_poems\rg_g_to_m;
+$the_html = "##article class='poem'>
+	##ul class='poem body'>
+		##li class='poem title'>##h2##article class='poem'>How to Imagine a One-dimensional Object##/h2>##/li>
+		##li class='poem line'>start with a three-dimensional object##/li>
+		##li class='poem line'>we will use the simplest of all, a sphere##/li>
+		##li class='poem line'>a beach ball, a baseball, my cousin's head##/li>
+		##li class='poem line'>&nbsp;##/li>
+		##li class='poem line'>the sun is shining, the sand is hot, the water is cool##/li>
+		##li class='poem line'>we are playing with the sphere in the joy of summer##/li>
+		##li class='poem line'>i cast it high, my cousin's head smiling##/li>
+		##li class='poem line'>and it passes in an arc between us##/li>
+		##li class='poem line'>causing a shadow to fall on a strip of flat sand##/li>
+		##li class='poem line'>because his head is perfectly round##/li>
+		##li class='poem line'>the shadow it casts in the sunlight of high noon##/li>
+		##li class='poem line'>is also perfectly round##/li>
+		##li class='poem line'>but because it is the absence of the light##/li>
+		##li class='poem line'>that showers us with its blessings##/li>
+		##li class='poem line'>it is flat, and of no thickness##/li>
+		##li class='poem line'>it is a nothing, yet is there##/li>
+		##li class='poem line'>visible for all to see##/li>
+		##li class='poem line'>freeze the moment now##/li>
+		##li class='poem line'>my cousin's head hovers in mid-air##/li>
+		##li class='poem line'>and nothing moves##/li>
+		##li class='poem line'>the sun remains perfectly still##/li>
+		##li class='poem line'>but because you are special##/li>
+		##li class='poem line'>you alone may transcend the rules of the universe##/li>
+		##li class='poem line'>the shadow is interesting##/li>
+		##li class='poem line'>you wave your hand between head and shadow##/li>
+		##li class='poem line'>the shadow changes##/li>
+		##li class='poem line'>it takes on a new shape, although you have not touched##/li>
+		##li class='poem line'>the now still-head in the air above you##/li>
+		##li class='poem line'>now you, wizard that you are##/li>
+		##li class='poem line'>get to perform a piece of great magic##/li>
+		##li class='poem line'>the shadow is of no thickness##/li>
+		##li class='poem line'>not even the thickness of a particle of light##/li>
+		##li class='poem line'>it is made of what is not there##/li>
+		##li class='poem line'>you carefully use your shadow##/li>
+		##li class='poem line'>as not-there as the other##/li>
+		##li class='poem line'>to slide under the edge of the other shadow##/li>
+		##li class='poem line'>and lift the nothing from the sand##/li>
+		##li class='poem line'>holding it in the nothing of the shadow of your hands##/li>
+		##li class='poem line'>you fold it in half##/li>
+		##li class='poem line'>it is of no thickness, so the folded shadow##/li>
+		##li class='poem line'>is also of no thickness##/li>
+		##li class='poem line'>the folded edge is perfectly straight##/li>
+		##li class='poem line'>but when you raise it to the level of your eye##/li>
+		##li class='poem line'>it disappears##/li>
+		##li class='poem line'>it is of only two-dimensions, length and width##/li>
+		##li class='poem line'>without the comfort of depth##/li>
+		##li class='poem line'>you have successfully created##/li>
+		##li class='poem line'>an object of only two dimensions##/li>
+		##li class='poem line'>now, in the throes of curiosity##/li>
+		##li class='poem line'>you half unfold your head-shadow##/li>
+		##li class='poem line'>and observe the edge created##/li>
+		##li class='poem line'>that edge has no depth##/li>
+		##li class='poem line'>being made of something with no depth##/li>
+		##li class='poem line'>and now it also has no width##/li>
+		##li class='poem line'>an edge never has width##/li>
+		##li class='poem line'>the edge you see has##/li>
+		##li class='poem line'>but a single dimension##/li>
+		##li class='poem line'>you have successfully created##/li>
+		##li class='poem line'>an object with only one dimension##/li>
+		##li class='poem line'>if you feel adventurous##/li>
+		##li class='poem line'>turn the shadow##/li>
+		##li class='poem line'>so the edge points directly at your eye##/li>
+		##li class='poem line'>close the other eye##/li>
+		##li class='poem line'>and the shadow will disappear##/li>
+		##li class='poem line'>now the edge disappears##/li>
+		##li class='poem line'>you are seeing a zero-dimensional object##/li>
+		##li class='poem line'>you are the king of the world##/li>
+		##li class='poem line'>&nbsp;##/li>
+		##li class='poem line'>now do everyone a favour##/li>
+		##li class='poem line'>and restart time, so my cousin's head##/li>
+		##li class='poem line'>three-dimensional object that it is##/li>
+		##li class='poem line'>may rejoin his body##/li>
+		##li class='poem line'>and our game of catch may continue##/li>
+	##/ul>
+##/article>";

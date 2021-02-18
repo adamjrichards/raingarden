@@ -1,0 +1,79 @@
+/************************************************/
+/*
+/*	Sidebar-right:
+		The right sidebar is a top-level 
+		component of RGCafe.  The ornament
+		is technically part of the rgcafe
+		context, but it is styled here, 
+		for simplicity.
+*/
+/************************************************/
+
+/*  Within the RGCafe stacking context.  */
+
+#the_right_side_ornament { 
+	position: fixed;
+	top: 0px;	
+	right: -10em;
+	z-index: 5;
+	width: 30em;
+	height: 100%;
+	transition: all 0.3s 0.6s;
+	background-image: 
+		linear-gradient( to top, rgba( 0, 0, 0, 0.2 ), rgba( 0, 0, 0, 0.4 ), rgba( 0, 0, 0, 0.05 ), rgba( 0, 0, 0, 0.45 ), rgba(0, 0, 0, 0.6 )),		
+		linear-gradient( to right top, rgba( 0, 0, 0, 0.8 ), rgba( 0, 0, 0, 0.4 ), rgba( 0, 0, 0, 0.05 ), rgba( 0, 0, 0, 0.45 ), rgba( 30, 25, 10, 0.6 ));
+	font: 1em monospace;
+	transform: skewX( 26deg ) translate( 5.6em );
+}
+
+#the_right-side_navbar {						
+	position: absolute;
+	right: 0;
+	width: 20em;
+	height: 100%;
+	padding: 3em 0 0 1em;
+	z-index: 0;
+	background-image: 
+		linear-gradient( to top, rgba( 0, 0, 0, 0.2 ), rgba( 0, 0, 0, 0.4 ), rgba( 0, 0, 0, 0.05 ), rgba( 0, 0, 0, 0.45 ), rgba(0, 0, 0, 0.6 )),		
+		linear-gradient( to right top, rgba( 0, 0, 0, 0.8 ), rgba( 0, 0, 0, 0.4 ), rgba( 0, 0, 0, 0.05 ), rgba( 0, 0, 0, 0.45 ), rgba( 30, 25, 10, 0.6 ));
+	transition: all 0.3s 0.6s;
+	transform: skewX( 12deg ) translate( 5em, -5em );
+}
+
+/************************************************/
+
+/*** Within the sidebar-right stacking context ***/
+
+#the_right-side_nav-menu {
+	z-index: 25;
+	width: 200px;
+	list-style-type: none;
+	text-align: left;
+	pointer-events: auto;
+}
+#the_right-side_nav-menu a {
+	z-index: 25;
+	font: 1.15em monospace;
+	width: auto;
+	color: turquoise;
+	text-decoration: underline;
+	text-decoration-color: white;
+
+}
+#the_right-side_nav-menu a:hover {
+	width: auto;
+	color: white;
+	text-decoration-color: turquoise;
+}
+#the_right-side_nav-menu li:nth-child(1) {
+	transform: rotate( -5deg );	
+}
+#the_right-side_nav-menu li:nth-child(2) {
+	transform: rotate( 14deg ) translate( -1em, 3.2em );	
+}
+#the_right-side_nav-menu li:nth-child(3)  {
+	transform: rotate( -19deg ) translate( 0, 3em );	
+}
+#the_right-side_nav-menu li:nth-child(4) {
+	transform: rotate( 21deg ) translate( 1.625em, 8em );	
+}

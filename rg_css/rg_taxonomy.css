@@ -1,0 +1,164 @@
+
+/* the taxonomys */
+
+section.taxonomy {
+	position: relative;
+	top: 0;
+	left: 17em;
+	width: calc( 100% - 17em );
+	z-index: 10;
+	border: 1px solid black;
+	background: linear-gradient( to right bottom, rgba( 0, 0, 100, 0.5 ), rgba( 225, 225, 180, 0.6 ), rgba( 0, 0, 100, 0.5 ) );
+	transform: scale( 1 );
+}
+
+table.taxonomy {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	background-color:rgba( 231, 228, 219, 0.2 );
+}
+
+th.taxonomy {
+	border: 1px solid black;
+	height: 2em;
+	background-image: linear-gradient( to right, rgba( 0, 20, 0, 1 ), rgba(30,55,27,1), rgba(220,155,77,0) );
+	padding: 0.5em;
+	margin: 0;
+	text-align: left;
+	font: italic 1.2em sans-serif;
+	color: rgba( 230,211,76,1.00);
+	text-shadow: 1px 1px 1px black;
+}
+
+td.taxonomy {
+	border: 1px solid black;
+	background-color:rgba( 231, 228, 219, 0.4 );
+	vertical-align: top;
+	padding: 1em;
+	margin: 0;
+}
+
+.taxonomy ul {
+	list-style: none;
+}
+
+ul.no-style {
+	list-style: none;
+}
+th.taxonomy a {
+	color: white;
+	text-shadow: 1px 1px 1px black;
+	width: 100%;
+	font: italic 1rem monospace;
+	margin-left: 1em;
+	text-decoration: underline dotted red;
+}
+
+.rgcafe.taxonomy {
+	position: relative;
+	display: block;
+	text-align: left;
+	min-height: 1.5em;
+	left: 1em;
+	max-width: 50em;
+}
+p.rgcafe.taxonomy.descriptions {
+	position: absolute;
+	left: 20em;
+	width: 25em;
+	max-height: 25em;
+	top: -1em;
+	z-index: 10;
+	background: rgba( 240, 240, 200, 1 );
+	padding: 1em;
+	outline: 8px solid white;
+	border: 2px solid black;
+	transition: all 200ms 0s linear;
+	color: black;
+}
+p.rgcafe.taxonomy.descriptions.level_1 {
+	background: rgba( 0, 0, 0, 0.5 );
+}
+.focus {
+	opacity: 1;
+	filter: blur( 0 );
+	transform: scale( 0.8 );
+	z-index: 100;
+}
+.blur {
+	opacity: 0.1;
+	filter: blur( 3px );
+	z-index: 10;
+}
+h1.rgcafe.taxonomy.level_1 {
+	color: rgba( 0, 0, 40, 1 );
+	font-size: 250%;
+	left: -1em;
+	padding: 0.3em 0 0 1em;
+	top: -1em;
+	background: rgba( 221, 175, 117, 0.9 );
+}
+h2.rgcafe.taxonomy.level_2 {
+	color: rgba( 0, 0, 80, 1 );
+	font-size: 150%;
+}
+h3.rgcafe.taxonomy.level_3 {
+	color: rgba(  20, 20, 100, 1 );
+	font-size: 120%;
+}
+h4.rgcafe.taxonomy.level_4 {
+	color: rgba( 0, 0, 140, 1 );
+	font-size: 100%;
+}
+h5.rgcafe.taxonomy.level_5 {
+	color: rgba( 0, 0, 150, 1 );
+	font-size: 100%;
+}
+h6.rgcafe.taxonomy.level_6 {
+	color: rgba( 0, 0, 160 1 );
+	font-size: 100%;
+}
+h6.rgcafe.taxonomy.level_1 {
+	transform: translate( 6em, -1em );
+	display: inline-block;
+	color: rgba( 0, 0, 160 1 );
+	font: normal italic 90% monospace;
+	width: 25em;
+}
+ul.rgcafe.taxonomy {
+	position: relative;
+}
+.taxonomy > .odd {
+	background-color: rgba( 228, 220, 169, 0.6 );
+}
+.taxonomy.even {
+	background-color: rgba( 228, 220, 169, 0.3 );
+}
+ul.rgcafe.taxonomy.level_1 {
+	top: 0;
+	color: rgba( 0, 0, 40, 1 );
+	background: rgba( 200, 175, 115, 0.5 );
+}
+ul.rgcafe.taxonomy.level_2 {
+	color: rgba( 0, 0, 40, 1 );
+	background: rgba( 121, 115, 57, 0.5 );
+	width: 30em;
+}
+ul.rgcafe.taxonomy.level_3 {
+	color: rgba( 0, 0, 40, 1 );
+	background: rgba( 221, 175, 117, 0.5 );
+}
+ul.rgcafe.taxonomy.level_4 {
+	color: rgba( 0, 0, 40, 1 );
+	background: rgba( 221, 175, 117, 0.5 );
+}
+ul.rgcafe.taxonomy.level_5 {
+	color: rgba( 0, 0, 40, 1 );
+	background: rgba( 221, 175, 117, 0.5 );
+}
+ul.rgcafe.taxonomy.level_6 {
+	color: rgba( 0, 0, 40, 1 );
+	background: rgba( 221, 175, 117, 0.5 );
+}

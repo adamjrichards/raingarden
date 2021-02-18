@@ -1,0 +1,28 @@
+{
+	"MY_RIGHT_SIDE_ORNAMENT"	: {
+			"the_handle" : "MY_RIGHT_SIDE_ORNAMENT",
+			"the_name" : "my_right_side_ornament",
+			"the_title" : "Raingarden Cafe",
+			"the_type" : "dom_node ornament",
+			"the_parent" : "MY_PAGE",
+			"the_left_sibling" : "append",
+			"the_meta" : "default",
+			"the_namespace" : "\\raingarden\\rg_components\\rg_ornaments\\",
+			"the_context" : "MY_PAGE",
+			"the_template" : "BW_Div_Tag.php",
+			"the_class" : "BW_Div_Tag.php",
+			"the_factory" : "\\raingarden\\rg_factories\\rg_Ornaments",
+			"the_source_file" : "rg_ornaments.php",
+			"the_source_folder" : "bw_components",
+			"the_css_source" : "default",
+			"the_node_opener" : "\n##!-------------------- MY_RIGHT_SIDE_ORNAMENT begins here. -------------------->",
+			"the_node_closer" : "\n##!-------------------- MY_RIGHT_SIDE_ORNAMENT ends here. -------------------->",
+			"the_tagName" : "div",
+			"the_id" : "the_right_side_ornament",
+			"the_className" : "default",
+			"the_src" : "default",
+			"the_inline_css" : "default",
+			"the_trigger" : "default",
+			"the_other_attributes" : "default"
+	}
+}

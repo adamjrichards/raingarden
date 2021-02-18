@@ -1,0 +1,95 @@
+<?php
+
+namespace raingarden\rg_content\rg_poems\rg_g_to_m;
+$the_html = "##article class='poem'>
+	##ul class='poem body'>
+		##li class='poem title'>##h2##article class='poem'>Letter from pain##/h2>##/li>
+		##li class='poem line'>white is evil, I know this##/li>
+		##li class='poem line'>is not the usual way of##/li>
+		##li class='poem line'>things that red is not my##/li>
+		##li class='poem line'>ally, it is the colour of fire and##/li>
+		##li class='poem line'>my teeth spin when I see it##/li>
+		##li class='poem line'>like a spot on a spinning##/li>
+		##li class='poem line'>wheel, and I beg the black##/li>
+		##li class='poem line'>to be my friend, I love, live##/li>
+		##li class='poem line'>for darkness, I'm not a man##/li>
+		##li class='poem line'>anymore, a mole now, who##/li>
+		##li class='poem line'>needs light? light is the##/li>
+		##li class='poem line'>enemy, I keep my arm over my eyes##/li>
+		##li class='poem line'>until my shoulder aches and##/li>
+		##li class='poem line'>I see paisley behind my eyelids where##/li>
+		##li class='poem line'>the hooks catch in my pupils##/li>
+		##li class='poem line'>dragging at me I lose track of##/li>
+		##li class='poem line'>time one second##/li>
+		##li class='poem line'>is the same as##/li>
+		##li class='poem line'>the next, after all there's##/li>
+		##li class='poem line'>no way to distinguish a now##/li>
+		##li class='poem line'>from a then, and it takes too##/li>
+		##li class='poem line'>much energy, anyway, so##/li>
+		##li class='poem line'>it's too late now for remedial##/li>
+		##li class='poem line'>efforts a waste of time##/li>
+		##li class='poem line'>which I have plenty of, so why not##/li>
+		##li class='poem line'>waste as much as I can? what##/li>
+		##li class='poem line'>stupid words I hear##/li>
+		##li class='poem line'>a sound inside my head, the sound##/li>
+		##li class='poem line'>of metal ropes winding around##/li>
+		##li class='poem line'>a drum, am I still here? I went##/li>
+		##li class='poem line'>somewhere for a minute there##/li>
+		##li class='poem line'>it was almost good, forgot to suf-##/li>
+		##li class='poem line'>fer for a bit, can't complain##/li>
+		##li class='poem line'>about that but the smells of burning##/li>
+		##li class='poem line'>are loud, almost drown out the##/li>
+		##li class='poem line'>taste of metal that crawls from##/li>
+		##li class='poem line'>the back of my throat when##/li>
+		##li class='poem line'>it peaks##/li>
+		##li class='poem line'>it is better than acid and I leave for ##/li>
+		##li class='poem line'>a while, see things I didn't know##/li>
+		##li class='poem line'>like a cool wind in a cave and##/li>
+		##li class='poem line'>a glimpse of a fingernail moon##/li>
+		##li class='poem line'>from the depth of a tunnel that I know##/li>
+		##li class='poem line'>now there will be an end but not##/li>
+		
+		##li class='poem line'>yet but##/li>
+		##li class='poem line'>if you don't let it peak it just##/li>
+		##li class='poem line'>goes on forever, it has to get##/li>
+		##li class='poem line'>worse before it gets better, my eyes##/li>
+		##li class='poem line'>are pinned with thumbtacks, I can't##/li>
+		##li class='poem line'>open them if I want to but wait, for a##/li>
+		##li class='poem line'>second there I felt nothing, a##/li>
+		##li class='poem line'>wave of nothing washing over##/li>
+		##li class='poem line'>me, bring it on, wait for##/li>
+		##li class='poem line'>it##/li>
+		##li class='poem line'>'s coming, catch the wave##/li>
+		##li class='poem line'>how can trains ride a wave? it's##/li>
+		##li class='poem line'>not a train now, that metaphor##/li>
+		##li class='poem line'>is over now, finished, done##/li>
+		##li class='poem line'>with it's a needle now, sharp##/li>
+		##li class='poem line'>and tinging like a tuning fork##/li>
+		##li class='poem line'>but the sound is getting quieter##/li>
+		##li class='poem line'>as the wave catches me again##/li>
+		##li class='poem line'>lifts me up into the lovely##/li>
+		##li class='poem line'>dark and delivers me to the##/li>
+		##li class='poem line'>beach, warm sand in the night##/li>
+		##li class='poem line'>another wave washes over##/li>
+		##li class='poem line'>me the needle cools, is withdrawn##/li>
+		##li class='poem line'>another millimeter and I can##/li>
+		##li class='poem line'>lower my arm finally and open##/li>
+		##li class='poem line'>one eye, there's still a world##/li>
+		##li class='poem line'>there, not my world, but a ##/li>
+		##li class='poem line'>world nonetheless and maybe##/li>
+		##li class='poem line'>I can stay here, maybe the##/li>
+		##li class='poem line'>light will be my friend##/li>
+		##li class='poem line'>again as I am pushed further##/li>
+		##li class='poem line'>up the shore and the tide##/li>
+		##li class='poem line'>pulls the burning ocean##/li>
+		##li class='poem line'>away and I sit up and##/li>
+		##li class='poem line'>for a moment the bile rises##/li>
+		##li class='poem line'>in my throat but I fight it##/li>
+		##li class='poem line'>back and suddenly realize##/li>
+		##li class='poem line'>I have grown hands and I##/li>
+		##li class='poem line'>suddenly realize that##/li>
+		##li class='poem line'>I want.##/li>
+		##li class='poem line'>I want.##/li>
+		##li class='poem line'>I want.##/li>
+	##/ul>
+##/article>";

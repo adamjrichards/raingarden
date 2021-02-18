@@ -1,0 +1,28 @@
+{
+	"MY_NODE_DEFAULTS" : {
+		"the_handle" : "default",
+		"the_name" : "default",
+		"the_title" : "MY_TITLE",
+		"the_type" : "MY_TYPE",
+		"the_context" : "MY_PROJECT",
+		"the_parent" : "black_willow",
+		"the_left_sibling" : "append",
+		"the_meta" : "default",
+		"the_namespace" : "default",
+		"the_template" : "default",
+		"the_class" : "BW_Div_Tag.php",
+		"the_factory" : "self",
+		"the_source_file" : "default",
+		"the_source_folder" : "default",
+		"the_css_source" : "default",
+		"the_node_opener" : "\n##!---- Generic node opener ---->",
+		"the_node_closer" : "\n##!---- Generic node closer ---->",
+		"the_src" : "default",
+		"the_tagName" : "default",
+		"the_id" : "default",
+		"the_className" : "default",
+		"the_inline_css" : "default",
+		"the_trigger" : "onmouseenter='add_my_listeners( this )'",
+		"the_other_attributes" : "default"
+	}
+}

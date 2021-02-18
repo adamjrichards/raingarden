@@ -1,0 +1,148 @@
+@charset "utf-8";
+
+/******************************************
+	Preloaded style sheets 
+******************************************/
+
+@import url( rg_widgets.css );
+@import url( rg_archives_menu.css );
+@import url( rg_taxonomy.css );
+@import url( rg_poems.css );
+@import url( rg_blog_posts.css );
+@import url( rg_blog_excerpts.css );
+@import url( rg_floating_posts.css );
+@import url( rg_floating_indexes.css );
+@import url( rg_draggable_posts.css );
+@import url( rg_draggable_widgets.css );
+
+
+
+/******************************************
+	Top level layout and design objects 
+******************************************/
+
+.rgcafe {
+	
+}
+/************************************************ /
+/*  Body tags
+		The default body schema is called
+		"Raingarden", and all child-tag
+		classNames begin with "raingarden."
+		Other schemae have their own major
+		classNames.
+*/
+
+/*  Raingarden is the default environment.  It
+	has two sections, the logo and the content. * /
+
+#raingarden {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: 0;
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	box-sizing: border-box;
+	color: white;
+}
+
+/************************************************/
+/*  Section tags
+		Body-context section tags are the root
+		context of each subsite.  The classnames
+		of child-tags begin with their section
+		names, i.e., rgcafe, pickup_lines, etc.
+*/
+
+/*	The RGCafe section CSS starts here.  * /
+
+#the_raingarden_cafe {
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	color: white;
+}
+
+/* This is actually part of the root stacking context,
+	but it appears in logos.css for simplicity's sake. 
+#the_raingarden_logo {
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 1000;
+	min-width: 1000px;
+	height: 150px;
+	overflow: visible;
+}
+*/
+
+/************************************************/
+/*	The Raingarden Cafe section begins here.  * /
+
+/******************************************
+	Root context layout and design objects 
+******************************************/
+
+#the_header {
+	position: fixed;
+	top: 0;
+	z-index: 10;
+	height: 4.5em;
+	width: 100vw;
+	transition: all 1s 0.6s;
+	border: 3px solid blue;
+	overflow: visible;
+}
+
+#the_banner {
+	position: fixed;
+	z-index: 5;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: inherit;
+	border-bottom: 0.625em solid rgba( 200, 200, 200, 0.5 );
+	box-sizing: content-box;
+	box-shadow: 0.5em 0.5em 0.5em rgba( 200, 200, 200, 0.5 ),
+				1em 1.3em 1em rgba( 10, 20, 8, 0.6 );
+}
+
+#the_left_sidebar {
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 10;
+	height: 100vh;
+	width: 10em;
+	transform: translateX( -8.75em );
+}
+
+#the_right_sidebar {
+	position: fixed;
+	right: -10em;
+	max-width: 10em;
+	height: 100%;
+	z-index: 15;
+	font: 1em monospace;
+	pointer-events: none;
+}
+
+#the_footer {
+	position: fixed;
+	bottom: -5em;
+	z-index: 10;
+	height: 4em;
+	width: 100vw;
+	background-image: linear-gradient( to bottom, rgba( 44, 150, 160, 0.5 ) 1px, rgba( 0, 0, 0, 0.5 ) 0.2em, rgba( 23, 11, 5, 0.6 ) 1.25em, white ),
+		 linear-gradient( to right, rgba( 40, 20, 10, 1 ) 60px, rgba( 23, 11, 5, 0.1 ) );
+	transform: rotate( -1.2deg );
+}

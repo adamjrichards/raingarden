@@ -1,0 +1,41 @@
+# raingarden_cafe/raingarden/.htaccess
+
+# Folder path constants
+
+SetEnv "MY_PROJECT_ROOT" "C:/Workspaces/raingarden"
+SetEnv "MY_PROJECT_PATH" "C:/Workspaces/raingarden"
+SetEnv "MY_PROJECT_ASSETS" "C:/Workspaces/raingarden/rg_assets"
+SetEnv "MY_PROJECT_BLACK_BOXES" "C:/Workspaces/raingarden/rg_black_boxes"
+SetEnv "MY_PROJECT_CONTAINERS" "C:/Workspaces/raingarden/rg_"
+SetEnv "MY_PROJECT_COMPONENTS" "C:/Workspaces/raingarden/rg_"
+SetEnv "MY_PROJECT_CONTENT" "C:/Workspaces/raingarden/rg_content"
+SetEnv "MY_PROJECT_CSS" "C:/Workspaces/raingarden/rg_css"
+SetEnv "MY_PROJECT_ERREX" "C:/Workspaces/raingarden/rg_errex"
+SetEnv "MY_PROJECT_FACTORIES" "C:/Workspaces/raingarden/rg_factories"
+SetEnv "MY_PROJECT_INIT" "C:/Workspaces/raingarden/rg_init"
+SetEnv "MY_PROJECT_JS" "C:/Workspaces/raingarden/rg_js"
+SetEnv "MY_PROJECT_JSON" "C:/Workspaces/raingarden/rg_json"
+SetEnv "MY_PROJECT_STATIC_PAGES" "C:/Workspaces/raingarden/rg_static_pages"
+SetEnv "MY_PROJECT_SYSTEM" "C:/Workspaces/raingarden/rg_system"
+
+
+# Project meta constants
+
+SetEnv "MY_PROJECT_FRIENDLY_NAME" "Raingarden Cafe"
+SetEnv "MY_PROJECT_HANDLE" "MY_PROJECT"
+SetEnv "MY_PROJECT_ALIAS" "MY_RAINGARDEN"
+SetEnv "MY_PROJECT_PREFIX" "rg"
+SetEnv "MY_PROJECT_OBJECT_PREFIX" "RG"
+SetEnv "MY_PROJECT_WEB_ROOT" "/raingarden"
+SetEnv "MY_PROJECT_DEFAULT_URL" "http://raingarden"
+
+#  File path constants
+
+SetEnv "MY_PROJECT_INDEX_PAGE" "C:/Workspaces/raingarden/index.php"
+SetEnv "MY_PROJECT_INIT_FILE" "C:/Workspaces/raingarden/rg_json/rg_init.json"
+SetEnv "MY_PROJECT_META_FILE" "C:/Workspaces/raingarden/rg_json/rg_meta.json"
+SetEnv "MY_PROJECT_ERREX_FILE" "C:/Workspaces/raingarden/rg_json/rg_errex.json"
+SetEnv "MY_PROJECT_CONSTANTS_FILE" "C:/Workspaces/raingarden/rg_json/rg_constants.json"
+SetEnv "MY_PROJECT_CONTENTS_MAP_FILE" "C:/Workspaces/raingarden/rg_json/rg_content_map.json"
+SetEnv "MY_PROJECT_FRAMEWORK_DEFAULTS_FILE" "C:/Workspaces/raingarden/rg_json/rg_framework_defaults.json"
+SetEnv "MY_PROJECT_MANIFEST" "C:/Workspaces/raingarden/raingarden.manifest"

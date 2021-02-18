@@ -1,0 +1,71 @@
+.streetlight { 
+	position: absolute;	
+}
+#the_streetlight_wrapper {
+	z-index: 40;
+}
+	#the_streetlight {
+		left: 20px;
+		top: 0;
+		z-index: 0;
+		width: 200px;
+		height: 100.5vh;
+	}
+		#the_light {
+			width: inherit;
+			top: 0;
+			height: 212px;
+		}
+		#the_lamppost {
+			width: inherit;
+			top: 212px;
+			height: calc( 100% - 292px );
+		}
+		#the_base {
+			width: inherit;
+			bottom: 0;
+		}
+	#the_streetlight_navmenu {
+		left: 20px;
+		top: 23vh;
+		z-index: 0;
+		width: 200px;
+		height: 60vh;
+	}
+		#the_streetlight_navlist {
+			width: inherit;
+			height: inherit;
+			display: flex;
+			flex-direction: column;
+			list-style: none;
+			padding: auto 0;
+		}
+			.navitem {
+				position: relative;
+				transform: scale( 0.85 );
+				flex-basis: 25%;
+				margin: 5% 0;
+			}
+			.navitem:hover {
+				filter: brightness( 1.4 ) hue-rotate( -9deg ) drop-shadow( 0px -150px 80px black ) drop-shadow( 0px 150px 80px rgba( 190, 150, 100, 0.3 ) );
+			}
+				#the_book_of_fun_sign {
+					left: 64px;
+					width: 170px;
+					transform-origin: left;
+				}
+				#the_love_and_chaos_sign {
+					left: -55px;
+					width: 210px;
+					transform-origin: center;
+				}
+				#the_pickup_lines_sign {
+					left: 35px;
+					width: 220px;
+					transform-origin: left;
+				}
+				#the_100_poems_sign {
+					left: 60px;
+					width: 180px;
+					transform-origin: left;
+				}

@@ -1,0 +1,58 @@
+.header {
+	margin: 0;
+	padding: 0;
+}
+
+nav.header {
+	position: absolute;
+	right: 8em;
+	top: 0.5em;
+	height: 1.2em;
+	width: 60em;
+	z-index: 5;
+}
+
+menu.header {
+	top: 0;
+	left: 0;
+	max-width: 100%;
+	height: 100%;
+}
+
+ul.header {
+	width: 100%;
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+}
+
+li.header {
+	flex-basis: 22em;
+}
+a.header {
+	top: 0.9em;
+	font: normal 110% monospace;
+	text-align: center;
+	width: 100%;
+	color: white;
+	cursor: pointer;
+}
+a.header:hover {
+	color: rgba(171,139,5,1.00);
+}
+span.header.label {
+	position: absolute;
+	font: normal 100% monospace;
+	transform: scaleX( 1.1 );
+}
+span.header.reflection {
+	position: absolute;
+	left: 0;
+	filter: blur( 1.2px ) opacity( 0.25 );
+	transform: rotateX( 180deg ) scale( 1.3, 0.9 ) translateY( -1.4em );
+}
+span.header.label:hover {
+	transition: all 0.2s 0s ease-in;
+	box-shadow: 0em 10em 10em 10em rgba( 171, 139, 5, 0.05 ),
+			-10em -10em 10em 10em  rgba( 33, 22, 5, 0.05 );
+}

@@ -1,0 +1,45 @@
+s/* widgets.css */
+
+nav.blog.widget_label {
+	position: absolute;
+	left: 17em;
+	top: 150px;
+	height: 800px;
+	z-index: 35;
+	transform: skewX( -4deg );
+}
+menu.blog.widget_label {
+	position: absolute;
+	height: 100%;
+	text-decoration: none;
+	text-shadow: 1px 1px 1px black;
+	font: 1em monospace;
+	color: white;
+}
+ul.blog.widget_label {
+	position: absolute;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	list-style: none;
+	border: 0px solid yellow;
+}
+li.blog.widget_label {
+	cursor: pointer;
+	padding: 1em 0;
+}
+span.blog.widget_label_letter {}
+
+
+
+div.blog.widget {
+	position: absolute;
+	z-index: 5;
+	width: 22em;
+	top: 150px;
+	height: 800px;
+	display: flex;
+	flex-direction: column;
+	transform: skewX( -4deg );
+}

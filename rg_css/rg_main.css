@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+main {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 5;
+	overflow-x: hidden;
+	overflow-y: auto;
+	box-sizing: padding-box;
+	cursor: default;
+}
+
+section.content {
+	position: fixed;
+	left: 21em;
+	top: 13em;
+	right: 4em;
+	bottom: 2em;
+	z-index: 5;
+	padding: 3em;
+	border: 3em solid rgba( 0, 0, 0, 0 );
+	background-color: rgba( 0, 0, 0, 0 );
+}
+section.content:focus {
+	position: fixed;
+	left: 21em;
+	top: 13em;
+	right: 4em;
+	bottom: 2em;
+	z-index: 5;
+	padding: 3em;
+	border: 3em solid rgba( 0, 0, 0, 0.2 );
+	background-color: rgba( 0, 0, 0, 0.75 );
+}
+iframe.content {
+	position: absolute;
+	left: 21em;
+	top: 13em;
+	width: calc( 100% - 25em );
+	height: calc( 100% - 15em );
+	z-index: 7;
+	border: 0;
+	background-color: transparent;
+}

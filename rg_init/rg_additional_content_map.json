@@ -1,0 +1,7 @@
+{
+	"Additional content types are mapped through here for quick lookup" : {
+		"MIMETypes" : "new mimetypes",
+		"resource_label" : "resource URI",
+		"outside_sources" : "resource URL"
+	}
+}

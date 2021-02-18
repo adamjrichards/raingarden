@@ -1,0 +1,82 @@
+<?php
+
+namespace raingarden\rg_content\rg_poems\rg_a_to_f;
+$the_html = "##article class='poem'>
+	##ul class='poem body'>
+		##li class='poem title'>##h2##article class='poem'>The Deconstructionist's Territory##/h2>##/li>
+		##li class='poem line'>this is a poem##/li>
+		##li class='poem line'>it is a poem about theory##/li>
+		##li class='poem line'>it is a theory about theory##/li>
+		##li class='poem line'>it is a theory about poems##/li>
+		##li class='poem line'>&nbsp;##/li>
+		##li class='poem line'>i am writing this##/li>
+		##li class='poem line'>	you are familiar with this process by now##/li>
+		##li class='poem line'>at the moment i write it##/li>
+		##li class='poem line'>it is perfect truth##/li>
+		##li class='poem line'>i cannot be lying when i tell you##/li>
+		##li class='poem line'>i am writing this##/li>
+		##li class='poem line'>scribo ergo sum##/li>
+		##li class='poem line'>&nbsp;##/li>
+		##li class='poem line'>that is the only thing that i can tell you in a poem##/li>
+		##li class='poem line'>which is always true##/li>
+		##li class='poem line'>granted, there are variations on it, but they are all alike##/li>
+		##li class='poem line'>&nbsp;##/li>
+		##li class='poem line'>i am having trouble in school##/li>
+		##li class='poem line'>it would seem that i am supposed to believe things##/li>
+		##li class='poem line'>that come in books##/li>
+		##li class='poem line'>it would seem that i am supposed to believe things##/li>
+		##li class='poem line'>that are said by famous people##/li>
+		##li class='poem line'>&nbsp;##/li>
+		##li class='poem line'>famous people say all sorts of clever things##/li>
+		##li class='poem line'>that turn out to be wrong##/li>
+		##li class='poem line'>sometimes they say wrong things very cleverly##/li>
+		##li class='poem line'>so that we are reluctant to think they are wrong##/li>
+		##li class='poem line'>&nbsp;##/li>
+		##li class='poem line'>some of the most famous things said by the most famous people##/li>
+		##li class='poem line'>turn out to have holes in them##/li>
+		##li class='poem line'>i am the Midnight Deconstructionist##/li>
+		##li class='poem line'>i should worship Derrida##/li>
+		##li class='poem line'>yet in Derrida i find much that cannot be believed##/li>
+		##li class='poem line'>assumptions made into axioms##/li>
+		##li class='poem line'>illogic disguised as cause and effect##/li>
+		##li class='poem line'>bold statements unsupported by reason##/li>
+		##li class='poem line'>it's very good prose##/li>
+		##li class='poem line'>just not very good deconstruction##/li>
+		##li class='poem line'>&nbsp;##/li>
+		##li class='poem line'>this leaves me in a bind##/li>
+		##li class='poem line'>which fortunately i am mostly capable of ignoring:##/li>
+		##li class='poem line'>the theory which is supposed to support my pursuit##/li>
+		##li class='poem line'>is a bad theory##/li>
+		##li class='poem line'>it has mistakes of logic in it##/li>
+		##li class='poem line'>i have seemingly based my life##/li>
+		##li class='poem line'>on that which is but a weak foundation##/li>
+		##li class='poem line'>how can i do this?##/li>
+		##li class='poem line'>&nbsp;##/li>
+		##li class='poem line'>the answer is simple:##/li>
+		##li class='poem line'>i use the tools##/li>
+		##li class='poem line'>refuse the theory##/li>
+		##li class='poem line'>theory is for deconstructionists who are more interested##/li>
+		##li class='poem line'>in deconstructing deconstruction##/li>
+		##li class='poem line'>than in deconstructing that which needs to be reconstructed##/li>
+		##li class='poem line'>&nbsp;##/li>
+		##li class='poem line'>every act of deconstruction##/li>
+		##li class='poem line'>if it does not lead to an act of new construction##/li>
+		##li class='poem line'>is an exercise in waste##/li>
+		##li class='poem line'>it is like wearing the most beautiful underwear in the world##/li>
+		##li class='poem line'>and never taking your pants off##/li>
+		##li class='poem line'>&nbsp;##/li>
+		##li class='poem line'>i, as the Midnight Deconstructionist##/li>
+		##li class='poem line'>wish my deconstruction to aid in your understanding##/li>
+		##li class='poem line'>of poetry, poets and poems##/li>
+		##li class='poem line'>even if it does so in a roundabout way##/li>
+		##li class='poem line'>&nbsp;##/li>
+		##li class='poem line'>however##/li>
+		##li class='poem line'>i want you to remember##/li>
+		##li class='poem line'>that you cannot believe anything i say##/li>
+		##li class='poem line'>simply because i said it##/li>
+		##li class='poem line'>this is poetry##/li>
+		##li class='poem line'>and in poetry, there are no rules##/li>
+		##li class='poem line'>(which is why everybody hates poetry,##/li>
+		##li class='poem line'>but that's a subject for another poem)##/li>
+	##/ul>
+##/article>";

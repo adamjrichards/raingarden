@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+#the_logo_link {	/* "a" tag in #the_rgcafe_logo context, in Raingarden_Logo.php */
+	position: absolute;
+	width: inherit;
+	height: inherit;
+}
+.logo {
+	margin: 0;
+	padding: 0;
+	overflow: visible;
+	box-sizing: border-box;
+	backface-visibility: visible;
+}
+.wrapper {
+	position: absolute;
+}
+
+.logo.rgcafe.wrapper {
+	left: 0;
+	top: 0;
+	z-index: 1000;
+	width: calc( 50vw + 13em );
+	height: 10.5em;
+}
+.logo.fern.wrapper {
+	width: 250px;
+	height: 125px;
+}
+.logo.cafe.wrapper {
+	width: 400px;
+	height: 125px;
+}
+.logo.raingarden.wrapper {
+	width: 500px;
+	height: 125px;
+}

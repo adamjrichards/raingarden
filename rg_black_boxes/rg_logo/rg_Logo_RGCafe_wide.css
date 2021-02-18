@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+/*  Wide  ******************************************************************
+		"wide" is the default class, until I add media queries.
+*/
+.wide {
+	transition: transform 2s 0s ease-in-out;
+}
+#the_rg_logo_wrapper.wide {
+	left: 14.5em;
+	top: 0em;
+	padding: 1.4em 0 0 0;
+	transform: scale( 0.95 );
+}
+#the_blue_fern_wrapper.wide {
+	fill: rgba( 0, 70, 110, 0.4 );
+	stroke: rgba( 0, 20, 50, 1 );
+	stroke-width: 1px;
+	z-index: 40;
+	filter: drop-shadow( -1px -3px 1px rgba( 0, 30, 20, 0.4 ) );
+	transform: translate( 230px, 55px ) scale( -1.7, 1 ) rotateX( 354deg ) rotateY( -340deg ) rotateZ( 354deg );
+}
+#the_green_fern_wrapper.wide {
+	fill: rgba( 20, 150, 70, 0.6 );
+	stroke: rgba( 0, 50, 0, 1 );
+	stroke-width: 1px;
+	z-index: 20;
+	filter: drop-shadow( 2px 2px 1px rgba( 0, 40, 0, 1 ) );
+	transform: translate( 160px, 60px ) scale( 1.4, 1 ) rotateX( 360deg ) rotateY( 367deg) rotateZ( -365deg );
+}
+#the_cafe_wrapper.wide {
+	z-index: 10;
+	filter: drop-shadow( 0px 0px 25px rgba( 0, 250, 0, 0.5 ) )
+		drop-shadow( 0px 0px 6px rgba( 0, 200, 20, 0.2 ) )
+		drop-shadow( 10px 10px 20px rgba( 0, 100, 20, 0.4 ) );
+	transform: translate( 460px, 20px ) scale( 0.67 );
+}
+#the_raingarden_wrapper.wide {
+	fill: rgba( 20, 150, 70, 0.6 );
+	stroke: rgba( 0, 50, 0, 1 );
+	stroke-width: 0.5px;
+	z-index: 30;
+	filter: drop-shadow( 2px 2px 1px rgba( 0, 0, 0, 0.3 ) );
+	transform: scale( 1.1 ) translate( 0px, -10px );
+}

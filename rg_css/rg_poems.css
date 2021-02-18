@@ -1,0 +1,84 @@
+.poem {
+	top: 0;
+	left: 0;
+}
+section.poem {
+	position: absolute;
+	width: auto;
+	height: auto;
+	border: 1px solid rgba( 100, 90, 0, 1 );	
+}
+article.poem {
+	position: absolute;
+	width: 50%;
+	height: 50%;
+	min-width: 35em;
+	min-height: 35em;
+	max-width: 100%;
+	max-height: 100%;
+	background-size: 100% 100%;
+	background: linear-gradient( to right bottom, rgba( 0, 0, 100, 0.5 ), rgba( 225, 225, 180, 0.6 ), rgba( 0, 0, 100, 0.5 ) );
+	border: 1px solid rgba( 100, 90, 0, 0.4 );
+	box-shadow: 15px 15px 12px 3px rgba( 10, 15, 0, 1 );
+	box-sizing: border-box;
+	transition: height 200ms 50ms,
+				width 400ms 100ms,
+				filter 300ms 200ms,
+				opacity 500ms 0ms,
+				transform 500ms 20ms;
+	overflow: visible;
+	resize: both;
+	padding: 1em;
+}
+ul.poem {
+	list-style-type: none;
+	right: 0;
+	width: auto;
+	height: 100%;
+	line-height: 1.2em;
+}
+li.poem {
+	position: static;
+}
+li.poem.line {
+	font: normal 1em serif;
+	color: black;
+	width: 100%;
+}
+li.poem.title {
+	font: italic 1.5em monospace;
+	background: rgba( 60, 80, 80, 0.4 );
+	border-bottom: 1px solid black;
+	margin: 1em 0 1.5em -2em;
+	text-align: right;
+}
+li.poem.line.spacer {
+	line-height: 0.6em;
+}
+figure.poem.illustration {
+	position: absolute;
+	
+}
+figcaption.poem.illustration {
+	font: normal 0.8rem serif;
+}
+img.poem.artwork {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.poem>h2 {
+	font-size: 1.1em;
+	text-align: right;
+}
+.poem>h2::after {
+	content: " ";
+	white-space: pre;
+}
+
+.white_space {
+	width: inherit;
+	min-height: 3em;
+	background-color: transparent;
+} 

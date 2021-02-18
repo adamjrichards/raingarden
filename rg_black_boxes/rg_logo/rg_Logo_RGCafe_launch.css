@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+/*****************************************************************
+  This is the css transition which launches the RGCafe logo.
+*****************************************************************/
+.launch {
+	transition: all 5s 0 ease-in-out;
+}
+#the_blue_fern_wrapper.launch {
+	transform-origin: 500px -500px;
+	transform: translate( 91vw, 80vh );	
+}
+#the_green_fern_wrapper.launch {
+	transform-origin: -1000px 500px;
+	transform: translate( 40vw, 85vh ) scale( 0.6 );
+}
+#the_cafe_wrapper.launch {
+	transform: translate( -500px, -200px ) scale( 0.01 );
+}
+#the_raingarden_wrapper.launch {
+	transform-origin: center;
+	transform: translate( 40vw, 50vh ) scale( 0.01 );	
+}

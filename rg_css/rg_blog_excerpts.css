@@ -1,0 +1,55 @@
+/* blog_entries_1.css */
+
+
+/* The excerpt blog post */
+[ draggable = "true" ] {
+	cursor: move;
+}
+
+section.blog.post.excerpt {
+	position: absolute;
+	top: 13em;
+	left: 19em;
+	width: 50em;
+	height: 45em;  
+	z-index: 50;
+	border: 1px solid black;
+	padding: 1em;
+	background: linear-gradient( to right bottom, rgba(  0, 0, 0, 0.5 ), rgba( 225, 225, 180, 0.6 ), rgba( 0, 0, 100, 0.5 ) );
+	resize: both;
+	display: flex;
+	flex-direction: column;
+}
+article.blog.post.excerpt {
+	flex-basis: 20%;
+	background: white;
+	padding: 0.5em 1em;
+	border: 1px solid blue;
+	margin: 1em 0em;
+}
+
+header.blog.post.excerpt {
+	position: absolute;
+	top: 1em;
+	left: 1em;
+	right: 1em;
+	height: 2em;
+	background-image: linear-gradient( to right, rgba( 0, 0, 0, 1 ), rgba(90,55,27,1), rgba(220,155,77,1) );
+	padding: 0.3em 0 0 0.5em;
+}
+
+h1.blog.post.excerpt.title  {
+	position: absolute;
+	height: 2em;
+	width: inherit;
+	background-image: linear-gradient( to right bottom, rgba( 0, 55, 77, 0.8 ), rgba(220,155,77,0.4) );
+	font-size: 1.9em;
+	color: rgba( 230,244,176,1.00);
+	padding: 0.2em 0 0.3em 0.6em;
+	text-align: left;
+	border-bottom: 0.1em solid black;
+	text-shadow: 1px 1px 1px black;
+}
+h1.blog.post.excerpt.title a {
+	color: rgba( 230,244,176,1.00);
+}

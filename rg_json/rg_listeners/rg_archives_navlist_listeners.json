@@ -1,0 +1,10 @@
+{
+     "archives_navlist_listeners" : {
+          "my_mouseenter"    :    "add mousedown once capture", 
+          "my_mouseleave"    :    [    "add mouseenter once   capture",
+                                        "remove mousedown once capture" ],
+          "my_mousedown"     :    [    "add mouseup once capture",
+                                        "add mouseleave once capture" ],
+          "my_mouseup"       :    "add mouseleave once capture"	
+	}
+}

@@ -1,0 +1,70 @@
+/* floating_posts.css */
+
+/* the blog posts */
+
+section.blog.post.floating {
+	position: absolute;
+	top: 16em;
+	left: 30em;
+	z-index: 50;
+	width: 48em;
+	height: 45em;
+	background: linear-gradient( to right bottom, rgba( 0, 0, 100, 0.5 ), rgba( 225, 225, 180, 0.6 ), rgba( 0, 0, 100, 0.5 ) );
+	border: 1px solid rgba( 100, 90, 0, 0.4 );
+	box-shadow: 15px 15px 12px 3px rgba( 10, 15, 0, 1 );
+	box-sizing: border-box;
+	overflow-x: hidden;
+}
+
+section.blog.post.floating.fixed {
+	background: linear-gradient( to right bottom, rgba( 0, 0, 100, 0.8 ), rgba( 225, 225, 180, 0.85 ), rgba( 0, 0, 100, 0.9 ) );
+}
+
+article.blog.post.floating {
+	position: absolute;
+	width: 45.5em;
+	margin: 0.5em;
+	min-height: 44em;
+}
+
+article.blog.post.floating.fixed {
+}
+
+article.blog.post.floating * {
+	max-width: 45.5em;
+}
+
+header.blog.post.floating {
+	position: absolute;
+	width: 45.5em;
+	height: 2em;
+	background-image: linear-gradient( to right, rgba( 0, 0, 0, 1 ), rgba(90,55,27,1), rgba(220,155,77,1) );
+}
+span.blog.post.floating.date {
+	color: rgba( 230,211,76,1.00);
+	font: italic 1.5em sans-serif;
+	text-align: left;
+	text-shadow: 1px 1px 1px black;
+	margin-left: 1em;
+}
+span.blog.post.floating.title {
+	position: absolute;
+	right: 0.5em;
+	color: white;
+	text-shadow: 1px 1px 1px black;
+	text-align: right;
+	font: 700 2em monospace;	
+}
+main.blog.post.floating {
+	position: absolute;
+	width: 45.5em;
+	top: 2em;
+	padding: 0;
+	margin-bottom: 2em;
+	background: rgba( 230, 230, 222, 1 );
+}
+main.blog.post.floating div {
+	padding: 0 0.5em;
+	margin-bottom: 2em;
+	background: rgba( 230, 230, 222, 1 );
+}

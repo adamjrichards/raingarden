@@ -1,0 +1,82 @@
+<?php
+
+namespace raingarden\rg_content\rg_poems\rg_a_to_f;
+$the_html = "##article class='poem'>
+	##ul class='poem body'>
+		##li class='poem title'>##h2##article class='poem'>Epicycles##/h2>##/li>
+		##li class='poem line'>from the dawn of civilization##/li>
+		##li class='poem line'>even the greatest of minds believed##/li>
+		##li class='poem line'>that we were the centre of all creation##/li>
+		##li class='poem line'>that the sun was a ball of fire that burned##/li>
+		##li class='poem line'>just above our doorstep##/li>
+		##li class='poem line'>that the moon was its sister but a few leagues away##/li>
+		##li class='poem line'>these things were simple##/li>
+		##li class='poem line'>but when the planets moved in the heavens##/li>
+		##li class='poem line'>their motion was complex##/li>
+		##li class='poem line'>and hard to explain##/li>
+		##li class='poem line'>&nbsp;##/li>
+		##li class='poem line'>first men thought the planets were living beings##/li>
+		##li class='poem line'>picking their own careful path##/li>
+		##li class='poem line'>eventually they were understood to be worlds##/li>
+		##li class='poem line'>which circled our own##/li>
+		##li class='poem line'>&nbsp;##/li>
+		##li class='poem line'>the learned men of Europe##/li>
+		##li class='poem line'>beginning the worship of science##/li>
+		##li class='poem line'>went to fabulous lengths##/li>
+		##li class='poem line'>to make the theory of our centrality##/li>
+		##li class='poem line'>- the core of our belief -##/li>
+		##li class='poem line'>right and real##/li>
+		##li class='poem line'>&nbsp;##/li>
+		##li class='poem line'>to explain the retrograde motions of the planets##/li>
+		##li class='poem line'>they employed the Ptolemaic conviction##/li>
+		##li class='poem line'>of the epicycle##/li>
+		##li class='poem line'>the planets' orbits were circles##/li>
+		##li class='poem line'>on the circumference of a circle##/li>
+		##li class='poem line'>&nbsp;##/li>
+		##li class='poem line'>but this did not make predictions##/li>
+		##li class='poem line'>any more accurate##/li>
+		##li class='poem line'>so the astronomers sat down##/li>
+		##li class='poem line'>and added epicycles to the epicycles##/li>
+		##li class='poem line'>without much success##/li>
+		##li class='poem line'>&nbsp;##/li>
+		##li class='poem line'>the adding of epicycles continued##/li>
+		##li class='poem line'>for hundreds of years##/li>
+		##li class='poem line'>epicycles upon epicycles upon epicycles##/li>
+		##li class='poem line'>until calculations proved impossible##/li>
+		##li class='poem line'>and still it didn't work##/li>
+		##li class='poem line'>&nbsp;##/li>
+		##li class='poem line'>finally came Copernicus##/li>
+		##li class='poem line'>who told us that the planets##/li>
+		##li class='poem line'>did not revolve around the earth##/li>
+		##li class='poem line'>but around the sun##/li>
+		##li class='poem line'>the theory of epicycles became obsolete overnight##/li>
+		##li class='poem line'>the theory that had stood##/li>
+		##li class='poem line'>for 13 centuries##/li>
+		##li class='poem line'>that had taken hundreds of men##/li>
+		##li class='poem line'>working for hundreds of thousands of hours##/li>
+		##li class='poem line'>and that was an absolute truth##/li>
+		##li class='poem line'>of religion and culture##/li>
+		##li class='poem line'>was a house of cards in a breeze##/li>
+		##li class='poem line'>a tower built high on a foundation of mud##/li>
+		##li class='poem line'>&nbsp;##/li>
+		##li class='poem line'>still, the scientists and leaders of men fought##/li>
+		##li class='poem line'>the ancients could not be wrong##/li>
+		##li class='poem line'>the house of cards could be saved##/li>
+		##li class='poem line'>the tower reinforced##/li>
+		##li class='poem line'>all that work redeemed##/li>
+		##li class='poem line'>&nbsp;##/li>
+		##li class='poem line'>Kepler came and refined the Copernican notion##/li>
+		##li class='poem line'>began the building of a new tower##/li>
+		##li class='poem line'>a tower founded on the concrete##/li>
+		##li class='poem line'>of empiricism and rationality##/li>
+		##li class='poem line'>&nbsp;##/li>
+		##li class='poem line'>Copernicus and Kepler were right##/li>
+		##li class='poem line'>everyone else in the world was wrong##/li>
+		##li class='poem line'>and the wrongness was an anchor##/li>
+		##li class='poem line'>tied to the foot of humanity##/li>
+		##li class='poem line'>&nbsp;##/li>
+		##li class='poem line'>as I walk between the towers of the city##/li>
+		##li class='poem line'>i keep my boots on##/li>
+		##li class='poem line'>and an eye to the roofs of the buildings around me##/li>
+	##/ul>
+##/article>";

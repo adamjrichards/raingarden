@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+.logo.cafe {
+	transform-origin: center;
+	transition: all .5s .5s;
+	overflow: visible;
+}
+.logo.cafe.instance {
+	width:  100%;
+	height: 100%;
+	filter: drop-shadow( 0px 20px 8px rgba( 0, 50, 50, 0.4 ) )
+			drop-shadow( 0px 5px 2px rgba( 0, 10, 10, 0.6 ) )
+		 	drop-shadow( 0px 1px 2px rgba( 30, 30, 30, 0.5 ) );
+	stroke: rgba( 0, 250, 10, 0.5 );
+	stroke-width: 3.5px;
+	fill: rgba( 0, 250, 50, 01 );
+	opacity: 0.71;
+
+}
+.logo.cafe.instance.glow {
+	filter: drop-shadow( 0px 0px 5px rgba( 0, 150, 10, 1 ) )
+		 	drop-shadow( 0px 0px 15px rgba( 0, 150, 10, 0.5 ) )
+		 	drop-shadow( 0px 0px 25px rgba( 0, 150, 10, .1 ) )
+			blur( 0.3px );
+}
+
+.logo.cafe.template.glow.on {
+	stroke: rgba( 220, 255, 50, 1 );
+	stroke-width: 1px;
+	fill: rgba( 0, 250, 50, 1 );
+
+}
+.logo.cafe.template.glow.off {
+	stroke: rgba( 220, 255, 50, 1 );
+	stroke-width: 1px;
+	fill: rgba( 0, 250, 50, 1 );
+
+}

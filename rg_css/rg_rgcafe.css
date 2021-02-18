@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+/******************************************
+	Top level layout and design objects 
+******************************************/
+/************************************************/
+/*  Body tags
+		The default body schema is called
+		"Raingarden", and all child-tag
+		classNames begin with "raingarden."
+		Other schemae will have their own major
+		classNames.
+*/
+
+/*  Raingarden is the default environment.  It
+	has two sections, the logo and the content. */
+html {
+	color: white;
+	background: white;
+}
+#the_body_tag {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: 0;
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	box-sizing: border-box;
+	color: white;
+	transition: filter .1s 0 ease-in;
+}
+
+/************************************************/
+/*  Navigation section tags
+*/
+
+
+#the_header_tag {
+	position: fixed;
+	top: 0;
+	width: 100vw;
+	height: 10.5em;
+	margin: 0;
+	padding: 0;
+	overflow: visible;
+	z-index: 10;
+}
+
+#the_left_sidebar {
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 40;
+	height: 100vh;
+	width: 21em;
+}
+
+#the_right_sidebar {
+	position: fixed;
+	right: -10em;
+	height: 100%;
+	z-index: 30;
+	font: 1em monospace;
+}
+
+#the_main_tag {
+}
+
+#the_footer_tag {
+	position: fixed;
+	bottom: -5em;
+	z-index: 30 ;
+	height: 8em;
+	width: 100vw;
+	background-image: linear-gradient( to bottom, rgba( 44, 150, 160, 0.5 ) 1px, rgba( 0, 0, 0, 0.5 ) 0.2em, rgba( 23, 11, 5, 0.6 ) 1.25em, white ),
+		 linear-gradient( to right, rgba( 40, 20, 10, 1 ) 60px, rgba( 23, 11, 5, 0.1 ) );
+	transform: rotate( -1.2deg );
+}

@@ -1,0 +1,67 @@
+
+
+/***********************************************
+	Global styles
+***********************************************/
+
+h1.the_big_404 {
+	display: inline;
+	font: 15em Algerian, blackletter, sans-serif;
+}
+h1.the_big_404::first-letter {
+	font: 25em Algerian, blackletter, sans-serif;
+}
+
+hr.horizontal {
+	position: absolute;
+	width: inherit;
+	background-color: black;
+	margin: auto;
+	border: 0;
+}
+
+hr.horizontal.line_1 {
+	height: 0.6em;
+	background-color: rgba( 0, 0, 40, 1 );
+	color: black;
+}
+
+hr.horizontal.line_2 {
+	height: 0.5em;
+	max-width: 95%;
+	background-color: black;
+	color: rgba( 0, 0, 80, 1 );
+}
+hr.horizontal.line_3 {
+	height: 0.4em;
+	max-width: 95%;
+	background-color: black;
+	margin: auto;
+}
+hr.horizontal.line_4 {
+	height: 0.3em;
+	max-width: 95%;
+	background-color: black;
+	margin: auto;
+}
+hr.horizontal.line_5 {
+	height: 0.2em;
+	max-width: 95%;
+	background-color: black;
+	margin: auto;
+	border: 1px solid black;
+}
+hr.horizontal.line_6 {
+	height: 0.1em;
+	max-width: 95%;
+	background-color: black;
+	margin: auto;
+	border: 0px solid black;
+}
+
+.default_values {
+	/*all: initial; */
+}
+.close_all {
+	/*all: initial; */
+}

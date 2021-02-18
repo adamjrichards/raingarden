@@ -1,0 +1,38 @@
+ {
+	 "link"	:	{
+		"rel" : "stylesheet",
+		"name" : "initial",
+		"title" : "Setup HD",
+		"href" : "blar.css",
+		"type" : "text/css",
+		 "as" : "default",
+		 "crossorigin" : "default",
+		 "disabled" : "default",
+		 "media" : "default",
+		 "sizes" : "default"
+	 },
+	 "link2"	:	{
+		"rel" : "stylesheet",
+		"name" : "initial",
+		"title" : "Setup HD",
+		"href" : "blar.css",
+		"type" : "text/css",
+		 "as" : "default",
+		 "crossorigin" : "default",
+		 "disabled" : "default",
+		 "media" : "default",
+		 "sizes" : "default"
+	 },
+	 "link3"	:	{
+		"rel" : "stylesheet",
+		"name" : "initial",
+		"title" : "Setup HD",
+		"href" : "blar.css",
+		"type" : "text/css",
+		 "as" : "default",
+		 "crossorigin" : "default",
+		 "disabled" : "default",
+		 "media" : "default",
+		 "sizes" : "default"
+	 }
+}
