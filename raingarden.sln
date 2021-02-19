@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30621.155
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "raingarden", "raingarden.phpproj", "{7F5208FB-3F34-4923-8543-993B913AC56D}"
+Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "RGCafe", "RGCafe.phpproj", "{511C0AC2-286D-4B74-9757-F46487A218A5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,8 +11,8 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7F5208FB-3F34-4923-8543-993B913AC56D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7F5208FB-3F34-4923-8543-993B913AC56D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{511C0AC2-286D-4B74-9757-F46487A218A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{511C0AC2-286D-4B74-9757-F46487A218A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
